@@ -64,7 +64,7 @@ This project implements a tool for generating and decoding **EAN-8 barcodes**. I
 ./generate_barcode 12345678 barcode.pbm 5 4 60
 ```
 
-Output: The barcode is saved as `barcode.pbm`. If the identifier is invalid, it will be corrected, and a message will indicate the adjusted identifier.
+Output: The barcode is saved as `barcode.pbm`. If the identifier is invalid, it will notified to the user.
 
 ---
 
